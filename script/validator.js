@@ -22,7 +22,8 @@
 			restrict : 'A',
 			scope: true,
 			link: function(scope, element, attr) {
-				console.log(attr.validate);
+				attr.validate = attr.validate.replace(' ', '');
+				console.log(attr.validate.split("|"));
 			}
 		};
 	}]);

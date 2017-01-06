@@ -14,7 +14,7 @@
 					<div class="row">
 						<form class="formValidator">
 							<div class="form-group">
-								<label form="email"></label>
+								<label form="email">Email</label>
 								<input type="email" id="email" validate=" email | required"/>
 							</div>
 						</form>
